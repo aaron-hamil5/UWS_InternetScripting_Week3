@@ -1,4 +1,6 @@
-﻿namespace UWS_InternetScripting_Week3;
+﻿using ShippersContext;
+
+namespace UWS_InternetScripting_Week3;
 
 class Program
 {
@@ -37,7 +39,16 @@ class Program
         {
             Console.WriteLine("View all of the information contained within the 'Shippers' table.");
             Console.WriteLine();
-            //TODO: Add Exercise here
+            
+            ShippersDatabase db = new ShippersDatabase();
+
+
+            List<Shipper> shippers = db.Shippers.ToList();
+
+            foreach (Shipper shipper in shippers)
+            {
+                Console.WriteLine($"{shipper.ShipperID}: {shipper.ShipperName} | Number: {shipper.Phone}");
+            }
             AnyKeyQuit();
         }
 

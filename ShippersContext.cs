@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ShippersContext
 {
-    public class shippersDatabase : DbContext
+    public class ShippersDatabase : DbContext
     {
         public DbSet<Shipper> Shippers {get; set;}
 
