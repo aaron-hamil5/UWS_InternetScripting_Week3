@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UWS_InternetScripting_Week3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+578374183493a5e14a39e9b38ca204a1dd55182f")]
 [assembly: System.Reflection.AssemblyProductAttribute("UWS_InternetScripting_Week3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UWS_InternetScripting_Week3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
