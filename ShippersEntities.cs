@@ -1,4 +1,4 @@
-public class Shippers
+public class Shipper
 {
     public Int32 ShipperID {get; set;}
     public String ShipperName {get; set;}
